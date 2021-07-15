@@ -1,13 +1,4 @@
-#warning powerful tools xploiter can be harmful and detrimental
-#GUNAKAN TOOLS INI UNTUK TUJUAN KEBAIKAN MEMBANTU PANTESTING
-#BUKAN UNTUK MERUSAK SEGALA SEUSATU DI TANGGUNG PENGGUNA
-#DI BUAT OPEN SOURCE
-#SUPAYA KALIAN JUGA BISA BERKARYA
-#Author: by Kedjaw3n
-#recode ?? silahkan asal sertakan nama author nya
-#w buat cape cape, bukan untuk di salah gunakan, apalagi di recode
-#Di buat: 10 - 07 - 2019
-#release: 17 - 12 - 2019
+
 N='\033[0m'
 R='\033[0;31m'
 G='\033[0;32m'
@@ -23,18 +14,22 @@ basic_1="/**//*!12345UNION+SELECT*//**/"
 
 banner() {
   echo -e "
-${G}██████╗ ██╗  ██╗██████╗ ██████╗ ██╗██████╗ 
-██╔══██╗██║  ██║██╔══██╗╚════██╗██║██╔══██╗ 
-██████╔╝███████║██████╔╝  ▄███╔╝██║██║  ██║${N} |==┣▇▇▇▇▇▇═─-SQl-i${G}
-██╔═══╝ ██╔══██║██╔═══╝   ▀▀══╝ ██║██║  ██║ 
-██║     ██║  ██║██║       ██╗   ██║██████╔╝${N} ${R}${G} 
-╚═╝     ╚═╝  ╚═╝╚═╝       ╚═╝   ╚═╝╚═════╝
-"
+${G\
+      .---.        .-----------
+     /     \  __  /    ------
+    / /     \(  )/    -----
+   //////   ' \/ `   ---
+  //// / // : ★★ : ---
+ // /   /  /`    '--
+//          //..\\   %s ${R[Sql Injection]
+       ====UU====UU========================
+           '//||\\` 
+================================================================="
 
 }
 
 gen() {
-  echo -e "${G}[!} Dork generator by Kedjaw3n\n${O}cth: product cart buy${N}"
+  echo -e "${G}[!} Dork generator \n${O}cth: product cart buy${N}"
   echo -n "Masukan Keyword: "
   read key
   echo -e "${O}cth: .php .html .aspx${N}"
@@ -482,7 +477,7 @@ echo -e "[7]. Reverse ip vuln sqli + auto inject"
 echo -e "[8]. Query Email Pass dumper + auto filter mail"
 echo -e "[9]. Hash tools"
 echo -e "[10]. Dork generator"
-echo -n "[?] yg mana ?? "
+echo -n ">>>"
 read d
 case $d in
  1) mass="n"
